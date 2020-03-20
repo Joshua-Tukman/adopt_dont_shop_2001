@@ -2,6 +2,8 @@
 
 <ul>
   <% @shelters.each do |shelter| %>
-    <h3><a href="/shelters/<%= shelter.id %>"><%= shelter.name %></a><br></h3>  
+    <h3><a href="/shelters/<%= shelter.id %>"><%= shelter.name %></a><br></h3>
   <%end%>
 </ul>
+
+<h3><a href="/shelters/new">New Shelter</h3>
