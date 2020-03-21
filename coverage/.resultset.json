@@ -322,12 +322,37 @@
         null,
         null
       ],
-      "/Users/joshuatukman/module2/adopt_dont_shop/app/models/shelter.rb": [
+      "/Users/joshuatukman/module2/adopt_dont_shop/spec/models/pet_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/joshuatukman/module2/adopt_dont_shop/app/models/pet.rb": [
         1,
         1,
         null
       ],
       "/Users/joshuatukman/module2/adopt_dont_shop/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/joshuatukman/module2/adopt_dont_shop/spec/models/shelter_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/joshuatukman/module2/adopt_dont_shop/app/models/shelter.rb": [
         1,
         1,
         null
@@ -378,6 +403,6 @@
         null
       ]
     },
-    "timestamp": 1584749024
+    "timestamp": 1584753078
   }
 }
