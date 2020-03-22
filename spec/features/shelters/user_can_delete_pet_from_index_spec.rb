@@ -14,11 +14,12 @@ RSpec.describe "Shelter Pet index page", type: :feature do
                           shelter_id:shelter_1.id,
                           adoption_status: "pending")
 
+
   visit "/shelters/#{shelter_1.id}/pets"
 
   expect(page).to have_content("Lucille")
 
-  click_button("Delete Pet")
+  click_on "Delete Pet"
 
   expect(current_path).to eq("/shelters/#{shelter_1.id}/pets")
   expect(page).not_to have_content("Lucille")
