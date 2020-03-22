@@ -396,8 +396,6 @@
         1,
         null,
         null,
-        null,
-        null,
         null
       ],
       "/Users/joshuatukman/module2/adopt_dont_shop/spec/features/shelters/user_can_create_new_shelter_in_system_spec.rb": [
@@ -450,6 +448,35 @@
         null,
         1,
         1,
+        null,
+        null,
+        null
+      ],
+      "/Users/joshuatukman/module2/adopt_dont_shop/spec/features/shelters/user_can_delete_shelter_from_index_page_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -686,7 +713,7 @@
       "/Users/joshuatukman/module2/adopt_dont_shop/app/controllers/shelters_controller.rb": [
         1,
         1,
-        5,
+        7,
         null,
         null,
         1,
@@ -702,8 +729,8 @@
         null,
         null,
         1,
-        1,
-        1,
+        2,
+        2,
         null,
         null,
         1,
@@ -724,6 +751,6 @@
         null
       ]
     },
-    "timestamp": 1584892288
+    "timestamp": 1584893590
   }
 }
