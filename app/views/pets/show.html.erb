@@ -5,4 +5,5 @@
 <%= @pet.adoption_status %><br>
 <img src="<%= @pet.image %>" height="150" width="200"></img><br>
 
-<%= link_to "Update Pet", "/pets/#{@pet.id}/edit" %>
+<%= link_to "Update Pet", "/pets/#{@pet.id}/edit" %><br>
+<%= link_to "Delete Pet", "/pets/#{@pet.id}", method: :delete %>

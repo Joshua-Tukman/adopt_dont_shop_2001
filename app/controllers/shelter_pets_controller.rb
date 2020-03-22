@@ -8,7 +8,12 @@ class ShelterPetsController < ApplicationController
   end
 
   def create
-
+    Pet.create(pet_params)
+    redirect_to "/shelters/#{pet_params[:shelter_id]}/pets"
   end
 
+  private
+  def pet_params
+    params.permit(:name, :approx_age, :sex, :description, :shelter_id, :image)
+  end
 end
