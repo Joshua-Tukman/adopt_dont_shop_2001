@@ -6,6 +6,8 @@
     <li><%= pet.shelter.name %></li>
     <li><%= pet.sex %></li>
     <li><%= pet.approx_age %></li>
-    <img src="<%= pet.image %>" height="150" width="200"></img>
+    <img src="<%= pet.image %>" height= auto width="200"></img><br>
+    <%= button_to "Edit #{pet.name}'s profile", "/pets/#{pet.id}/edit", method: :get %>
+
   <%end%>
 </ul>

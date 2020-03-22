@@ -21,6 +21,9 @@ require 'rails_helper'
 
     click_link("Delete Pet")
 
+    expect(current_path).to eq("/pets")
+    expect(page).to_not have_content("Lucille")
+
   end
 end
 
