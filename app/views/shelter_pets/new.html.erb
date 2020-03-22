@@ -1,0 +1,18 @@
+<h2>New Pet Available for Adoption!</h2>
+
+<%= form_tag "/shelters/#{@shelter.id}/pets", method: :post do %>
+  <%= label_tag :name %><br>
+  <%= text_field_tag :name %><br>
+  <%= label_tag :approx_age %><br>
+  <%= text_field_tag :approx_age %><br>
+  <%= label_tag :sex %><br>
+  <%= text_field_tag :sex %><br>
+  <%= label_tag :description %><br>
+  <%= text_field_tag :description %><br>
+  <%= label_tag :image%><br>
+  <%= text_field_tag :image %><br>
+
+  <%= submit_tag 'Add Pet' %>
+
+
+<% end %>

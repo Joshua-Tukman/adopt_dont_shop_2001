@@ -1,0 +1,8 @@
+<h3><%= @pet.name %></h3><br>
+<%= @pet.approx_age %><br>
+<%= @pet.sex %><br>
+<%= @pet.description %><br>
+<%= @pet.adoption_status %><br>
+<img src="<%= @pet.image %>" height="150" width="200"></img><br>
+
+<%= link_to "Update Pet", "/pets/#{@pet.id}/edit" %>

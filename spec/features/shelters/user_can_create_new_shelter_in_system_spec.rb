@@ -14,7 +14,7 @@ require 'rails_helper'
     expect(page).to_not have_link("Lost Dog Warehouse")
     click_link "New Shelter"
 
-    fill_in(:name, :with =>"Lost Dog Warehouse")
+    fill_in(:name, :with =>"Lost Doggie Warehouse")
     fill_in(:address, :with => "2223 Forest Dr.")
     fill_in(:city, :with => "Boulder")
     fill_in(:state, :with => "Colorado")
@@ -23,7 +23,7 @@ require 'rails_helper'
     click_button("Create Shelter")
 
     expect(page).to have_link(shelter_1.name)
-    expect(page).to have_link("Lost Dog Warehouse")
+    expect(page).to have_link("Lost Doggie Warehouse")
 
   end
 end

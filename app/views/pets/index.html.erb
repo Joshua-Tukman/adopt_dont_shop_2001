@@ -1,0 +1,12 @@
+<h1>Pets Index</h1>
+
+<ul>
+  <% @pets.each do |pet| %>
+    <h3><%= link_to "#{pet.name}", "/pets/#{pet.id}"%></h3><br>
+    <li><%= pet.shelter.name %></li>
+    <li><%= pet.sex %></li>
+    <li><%= pet.approx_age %></li>
+    <img src="<%= pet.image %>" height="150" width="200"></img>
+
+  <%end%>
+</ul>
