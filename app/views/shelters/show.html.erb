@@ -1,8 +1,10 @@
-<h3><%= @shelter.name %></h3><br>
+<h2><%= @shelter.name %></h2><br>
 <%= @shelter.address %><br>
 <%= @shelter.city %><br>
 <%= @shelter.state %><br>
 <%= @shelter.zipcode %>
+<p>Click link below to see a current list of dogs available for adoption</p>
+<h3><%= button_to "Pets at Shelter", "/shelters/#{@shelter.id}/pets" %></h3>
 
 <h3><%= link_to "Update Shelter", "/shelters/#{@shelter.id}/edit"%></h3>
 <%= link_to 'Delete Shelter', "/shelters/#{@shelter.id}", method: :delete %>

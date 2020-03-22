@@ -5,9 +5,9 @@
     <h3><%= link_to "#{pet.name}", "/pets/#{pet.id}"%></h3><br>
     <li><%= pet.shelter.name %></li>
     <li><%= pet.sex %></li>
-    <li><%= pet.approx_age %></li>
+    <li><%= "Pet's approximate age: #{pet.approx_age}" %></li><br>
     <img src="<%= pet.image %>" height= auto width="200"></img><br>
     <%= button_to "Edit #{pet.name}'s profile", "/pets/#{pet.id}/edit", method: :get %>
-
+    <%= button_to "Delete Pet", "/pets/#{pet.id}", method: :delete %>
   <%end%>
 </ul>
